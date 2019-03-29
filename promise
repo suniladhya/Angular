@@ -1,0 +1,28 @@
+updateSchedule(empId:number):Promise<string>{
+ return new Promise(this.doWork)
+}
+
+ doWork(resolve,reject):void{
+  let result:string = this.processCalendar();
+  if( resolve === 'success'){
+    resolve('Done updating schedule');
+  }
+  else{
+    reject('Unable to update schedule');
+  }
+  }
+  
+  /*
+updateSchedule(empId:number):Promise<string>{
+ return new Promise((resolve,reject)=>{
+ 	let result:string = this.processCalendar();
+  if( resolve === 'success'){
+    resolve('Done updating schedule');
+  }
+  else{
+    reject('Unable to update schedule');
+  }
+ })
+}
+
+  */

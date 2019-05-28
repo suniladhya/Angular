@@ -53,7 +53,8 @@ ng serve -o --port=200 --aot=true
 [1](https://codecraft.tv/courses/angular/unit-testing/asynchronous/)
 # Adding John Papa's Hacks
 
-
+# Running a Forked project of Old version
+* ng config -g cli.warnings.versionMismatch false
 
 # Angular
 [Angular Extension for visual Studio](https://i.ibb.co/vdrXL3q/Angular-Extensions.jpg)

@@ -1,3 +1,10 @@
+Build in Production
+* Performs a minification, NG Templating is pre compiled, NG Compilation, NG Compiler is not shipped(=> Content is smaller and performance is improved), Hash is there so that any time code is changed the hash leverages caching seemlessly,
+* ng build --prod
+# Deployment
+To Host a directory in the machine, as if it is hosted in a CDN.
+* npm install http-server -g
+* eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 # Installation
 * npm cache clean --force (Incase it shows error while installation)
 * npm install -g @angular/cli
